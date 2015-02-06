@@ -65,7 +65,7 @@
 			compatible = "allwinner,simple-framebuffer", "simple-framebuffer";
 			allwinner,pipeline = "de_be0-lcd0-hdmi";
 			clocks = <&pll6 0>;
-			status = "disabled";
+			status = "enabled";
 		};
 	};
 
