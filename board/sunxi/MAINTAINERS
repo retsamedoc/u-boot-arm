@@ -100,3 +100,8 @@ MELE M5 BOARD
 M:	Ian Campbell <ijc@hellion.org.uk>
 S:	Maintained
 F:	configs/Mele_M5_defconfig
+
+AD310
+M:  Tony Chyi <tonychee1989@gmail.com>
+S:  Maintained
+F:  configs/AD310_defconfig
