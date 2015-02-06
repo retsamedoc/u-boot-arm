@@ -56,7 +56,7 @@
 	compatible = "merrii,a31-hummingbird", "allwinner,sun6i-a31s";
 
 	chosen {
-		bootargs = "earlyprintk console=ttyS0,115200";
+		bootargs = "earlyprintk console=ttyS0,115200 noinitrd init=/bin/init root=/dev/mmcblk1p2 rootfstype=ext4 rootwait panic=20 loglevel=4";
 	};
 
 	soc@01c00000 {
