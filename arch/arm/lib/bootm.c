@@ -362,7 +362,7 @@ int bootz_setup(ulong image, ulong *start, ulong *end)
 	zi = (struct zimage_header *)map_sysmem(image, 0);
 	if (zi->zi_magic != LINUX_ARM_ZIMAGE_MAGIC) {
 		puts("Bad Linux ARM zImage magic!\n");
-        printf("current magic=0x%8x\n\n", zi->zi_magic);
+        printf("current magic=0x%08x\n\n", zi->zi_magic);
 		return 1;
 	}
 
