@@ -23,7 +23,9 @@
 #define CONFIG_SYS_PROMPT "Kaka-boot> "
 #endif
 
-#define CONFIG_MACH_TYPE  3892
+#ifndef CONFIG_MACH_TYPE
+#define CONFIG_MACH_TYPE  0xffffffff
+#endif
 
 #ifdef CONFIG_USB_EHCI
 #define CONFIG_USB_EHCI_SUNXI
