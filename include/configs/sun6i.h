@@ -15,6 +15,8 @@
  * A31 specific configuration
  */
 #define CONFIG_CLK_FULL_SPEED		1008000000
+#define CONFIG_SYS_PROMPT "Kaka-boot> "
+#define CONFIG_MACH_TYPE  3892
 
 #ifdef CONFIG_USB_EHCI
 #define CONFIG_USB_EHCI_SUNXI
