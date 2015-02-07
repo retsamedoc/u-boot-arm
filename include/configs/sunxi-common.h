@@ -40,7 +40,9 @@
  */
 #define CONFIG_DISPLAY_CPUINFO
 
+#ifndef CONFIG_SYS_PROMPT
 #define CONFIG_SYS_PROMPT	"sunxi# "
+#endif
 
 /* Serial & console */
 #define CONFIG_SYS_NS16550
